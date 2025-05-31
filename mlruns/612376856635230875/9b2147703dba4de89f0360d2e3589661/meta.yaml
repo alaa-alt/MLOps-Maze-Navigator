@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/9b2147703dba4de89f0360d2e3589661/artifacts
+end_time: 1748722601944
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 9b2147703dba4de89f0360d2e3589661
+run_name: RandomForest
+run_uuid: 9b2147703dba4de89f0360d2e3589661
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748722588296
+status: 3
+tags: []
+user_id: alaa6

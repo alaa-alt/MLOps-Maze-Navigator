@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/a7bcd047fcde45c3a4c3733b3a96f7f3/artifacts
+deleted_time: 1748722294184
+end_time: 1748721845344
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: deleted
+run_id: a7bcd047fcde45c3a4c3733b3a96f7f3
+run_name: capable-shrimp-273
+run_uuid: a7bcd047fcde45c3a4c3733b3a96f7f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748721831516
+status: 3
+tags: []
+user_id: alaa6

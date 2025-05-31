@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/68576b11f40a4b0c851b30cc07be803c/artifacts
+end_time: 1748723137533
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 68576b11f40a4b0c851b30cc07be803c
+run_name: GradientBoosting
+run_uuid: 68576b11f40a4b0c851b30cc07be803c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748722601946
+status: 3
+tags: []
+user_id: alaa6

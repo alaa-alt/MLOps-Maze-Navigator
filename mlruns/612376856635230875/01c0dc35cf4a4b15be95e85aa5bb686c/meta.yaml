@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/01c0dc35cf4a4b15be95e85aa5bb686c/artifacts
+end_time: 1748722580196
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 01c0dc35cf4a4b15be95e85aa5bb686c
+run_name: DecisionTree
+run_uuid: 01c0dc35cf4a4b15be95e85aa5bb686c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748722575378
+status: 3
+tags: []
+user_id: alaa6

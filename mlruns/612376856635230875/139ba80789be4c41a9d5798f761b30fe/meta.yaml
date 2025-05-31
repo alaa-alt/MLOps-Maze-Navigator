@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/139ba80789be4c41a9d5798f761b30fe/artifacts
+end_time: 1748722588290
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 139ba80789be4c41a9d5798f761b30fe
+run_name: SVM
+run_uuid: 139ba80789be4c41a9d5798f761b30fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748722580200
+status: 3
+tags: []
+user_id: alaa6

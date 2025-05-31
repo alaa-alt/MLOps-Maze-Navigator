@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/3e5deef76ba442cdbc22489ecfabbc87/artifacts
+end_time: 1748722575376
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 3e5deef76ba442cdbc22489ecfabbc87
+run_name: LogisticRegression
+run_uuid: 3e5deef76ba442cdbc22489ecfabbc87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748722568566
+status: 3
+tags: []
+user_id: alaa6

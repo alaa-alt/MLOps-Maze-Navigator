@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/612376856635230875/90b5ed9c98874bfbb15637d57a11f9aa/artifacts
+end_time: 1748723147603
+entry_point_name: ''
+experiment_id: '612376856635230875'
+lifecycle_stage: active
+run_id: 90b5ed9c98874bfbb15637d57a11f9aa
+run_name: AdaBoost
+run_uuid: 90b5ed9c98874bfbb15637d57a11f9aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748723137535
+status: 3
+tags: []
+user_id: alaa6

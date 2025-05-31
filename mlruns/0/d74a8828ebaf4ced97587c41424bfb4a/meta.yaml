@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alaa6/Documents/ITI/MLOps/Final_project/MLOps-Maze-Navigator/mlruns/0/d74a8828ebaf4ced97587c41424bfb4a/artifacts
+end_time: 1748721412068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d74a8828ebaf4ced97587c41424bfb4a
+run_name: agreeable-hound-386
+run_uuid: d74a8828ebaf4ced97587c41424bfb4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748721397703
+status: 3
+tags: []
+user_id: alaa6
