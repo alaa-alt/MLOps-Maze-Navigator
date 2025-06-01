@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from app.schema import Landmarks
 from app.model import predict
 
@@ -10,5 +10,8 @@ def root():
 
 @app.post("/predict")
 def classify_hand(landmarks: Landmarks):
-    prediction = predict(landmarks.landmarks)
-    return {"predicted_label": prediction}
+    try:
+        prediction = predict(landmarks.landmarks)
+        return {"predicted_label": prediction}
+    except ValueError as e:
+        raise HTTPException(status_code=422, detail=str(e))

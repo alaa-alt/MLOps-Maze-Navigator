@@ -9,6 +9,8 @@ inv_label_mapping = {v: k for k, v in label_mapping.items()}
 
 def predict(landmarks_flat: list):
     arr = np.array(landmarks_flat).reshape(1, -1)
+    if arr.shape[1] != 63:
+        raise ValueError(f"Invalid number of features: {arr.shape[1]}, expected 63")
     pred = model.predict(arr)[0]
     label = inv_label_mapping[pred]
     return label
