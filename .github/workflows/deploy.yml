@@ -7,9 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     env:
-      IMAGE_NAME: mlops-maze-navigator
+      IMAGE_NAME: ${{ secrets.IMAGE_NAME }}
       REGION: ${{ secrets.AWS_REGION }}
       ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
 
