@@ -4,7 +4,6 @@ from model import predict
 from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
 from prometheus_fastapi_instrumentator import Instrumentator
 import time
-
 app = FastAPI(title="Hand Gesture Classifier API")
 
 Instrumentator().instrument(app).expose(app)
