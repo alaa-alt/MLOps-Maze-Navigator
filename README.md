@@ -1,17 +1,21 @@
 # MLOps-Maze-Navigator
-## Monitoring Metrics
+## Monitoring Overview
 
-We use Prometheus to monitor the application's health, performance, and data quality. The selected metrics and their justifications are:
+As part of the MLOps pipeline for our FastAPI-based hand gesture prediction service, we implemented a real-time monitoring dashboard using Prometheus and Grafana. The dashboard includes three carefully chosen metrics that offer full visibility across the model, data, and infrastructure layers.
 
-- **Model-Related**: `prediction_latency_seconds`
-  - Measures the time taken by the model to return predictions.
-  - Useful for detecting performance bottlenecks in real-time inference.
+---
 
-- **Data-Related**: `invalid_input_total`
-  - Counts how many invalid or malformed inputs are received by the API.
-  - Helps detect data quality issues from the frontend or other clients.
+### 1. Model-Related: `prediction_latency_seconds`
 
-- **Server-Related**: `http_requests_total`
-  - Tracks the number of HTTP requests categorized by response status code (e.g., 200, 400, 500).
-  - Gives insight into overall server stability and error rates.
+**What it shows:**  
+The average time (in seconds) taken by the model to produce a prediction.
 
+**Why we chose it:**  
+Inference latency is a core performance indicator for any deployed ML model. Monitoring this metric allows us to:
+- Detect model slowness or performance degradation
+- Track how the model scales with load
+- Ensure responsiveness remains within acceptable limits for user experience
+
+**Prometheus query used:**
+```prometheus
+rate(prediction_latency_seconds_sum[1m]) / rate(prediction_latency_seconds_count[1m])
