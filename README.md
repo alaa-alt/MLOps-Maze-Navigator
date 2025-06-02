@@ -8,12 +8,11 @@ This repository contains the backend system for hand gesture recognition used to
 
 - Framework: FastAPI  
 - Main API logic is implemented in `main.py`  
-- Endpoint `/predict` accepts normalized hand landmarks and returns a direction label  
+- Endpoint `/predict` accepts hand landmarks and returns a direction label  
 - Code is modular and includes separation for:
   - `model.py`: loads the gesture classification model
   - `schema.py`: defines request/response models
-  - `utils.py`: includes data preprocessing functions
-  - `trigger_predictions.py`: helper function to map predictions to actions
+  - `trigger_predictions.py`: tester function for /predict
 
 ---
 
@@ -63,10 +62,6 @@ Metrics are defined and exposed in the FastAPI application, scraped by Prometheu
   - Average Prediction Latency
   - Count of Invalid Prediction Inputs
 
-### Dashboard Screenshot
-
-![Grafana Dashboard](./e564c12a-94f9-4fd2-ab6f-e1a0c22be10c.png)
-
 ---
 
 ## How to Run Locally
@@ -98,8 +93,7 @@ Access the services at:
 ├── RF_model.pkl               # Trained gesture recognition model
 ├── schema.py                  # Request/response data schemas
 ├── test_main.py               # Unit tests
-├── trigger_predictions.py     # Maps model output to movement actions
-└── utils.py                   # Input normalization and preprocessing
+├── trigger_predictions.py     # Helper function to test/predict
 ```
 
 ---
@@ -110,9 +104,3 @@ Install dependencies locally (optional):
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## License
-
-This project is for educational and demonstration purposes.
